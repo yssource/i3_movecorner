@@ -1,1 +1,1 @@
-scripts/i3_movecorner.sh
+/home/satsu/scripts/i3_movecorner.sh
