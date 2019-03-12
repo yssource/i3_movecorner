@@ -2,7 +2,8 @@
 Simple script to move i3 floating windows to screen corners.
 
 Currently it does not support multi-display setups with different screen resolutions, but feel free to open a pull request.
-![](example.gif)
+
+![](example.mp4)
 
 ## Usage
 
@@ -11,13 +12,15 @@ Call the script with a location preset:
 `./i3_movecorner.sh 9` - will move the currently focused window to the bottom right
 
 Presets available:
-`_______________
+
+```
+ _______________
 |1      2      3|
 |               |
 |4      5      6|
 |               |
 |7______8______9|
-`
+```
 
 ## i3 config
 
