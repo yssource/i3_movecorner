@@ -3,7 +3,7 @@ Simple script to move i3 floating windows to screen corners.
 
 Currently it does not support multi-display setups with different screen resolutions, but feel free to open a pull request.
 
-![](example.mp4)
+![](example.gif)
 
 ## Usage
 
