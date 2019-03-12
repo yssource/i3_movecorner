@@ -1,0 +1,1 @@
+scripts/i3_movecorner.sh
