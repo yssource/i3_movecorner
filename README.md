@@ -9,7 +9,7 @@ Currently it does not support multi-display setups with different screen resolut
 
 Call the script with a location preset:
 
-`./i3_movecorner.sh 9` - will move the currently focused window to the bottom right
+`./i3_movecorner.sh 9` will move the currently focused window to the top right.
 
 Presets available:
 
