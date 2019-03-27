@@ -15,24 +15,24 @@ half_y=$(( max_y / 2 ))
 <<PRESETS
   -  <x_pos> +
  _______________
-|1      2      3|   -
+|7      8      9|   -
 |               |   ^
 |4      5      6| y_pos
 |               |   v
-|7______8______9|   +
+|1______2______3|   +
 
 PRESETS
 
 case $preset in  # X        Y
-    '1') new_pos="0        0";;
-    '2') new_pos="$half_x  0";;
-    '3') new_pos="$max_x   0";;
+    '1') new_pos="0        $max_y";;
+    '2') new_pos="$half_x  $max_y";;
+    '3') new_pos="$max_x   $max_y";;
     '4') new_pos="0        $half_y";;
     '5') new_pos="$half_x  $half_y";;
     '6') new_pos="$max_x   $half_y";;
-    '7') new_pos="0        $max_y";;
-    '8') new_pos="$half_x  $max_y";;
-    '9') new_pos="$max_x   $max_y";;
+    '7') new_pos="0        0";;
+    '8') new_pos="$half_x  0";;
+    '9') new_pos="$max_x   0";;
     *) echo "i3_movecorner: Invalid preset \"$preset\"" >&2; exit 2;;
 esac
 
