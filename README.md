@@ -15,24 +15,24 @@ Presets available:
 
 ```
  _______________
-|1      2      3|
+|7      8      9|
 |               |
 |4      5      6|
 |               |
-|7______8______9|
+|1______2______3|
 ```
 
 ## i3 config
 
 You can bind this script to whatever keys you like in your i3 config. I use the keypad keys on mine.
 ```
-bindsym $mod+KP_Home  exec --no-startup-id ~/scripts/i3_movecorner.sh 1
-bindsym $mod+KP_Up    exec --no-startup-id ~/scripts/i3_movecorner.sh 2
-bindsym $mod+KP_Prior exec --no-startup-id ~/scripts/i3_movecorner.sh 3
+bindsym $mod+KP_End   exec --no-startup-id ~/scripts/i3_movecorner.sh 1
+bindsym $mod+KP_Down  exec --no-startup-id ~/scripts/i3_movecorner.sh 2
+bindsym $mod+KP_Next  exec --no-startup-id ~/scripts/i3_movecorner.sh 3
 bindsym $mod+KP_Left  exec --no-startup-id ~/scripts/i3_movecorner.sh 4
 bindsym $mod+KP_Begin exec --no-startup-id ~/scripts/i3_movecorner.sh 5
 bindsym $mod+KP_Right exec --no-startup-id ~/scripts/i3_movecorner.sh 6
-bindsym $mod+KP_End   exec --no-startup-id ~/scripts/i3_movecorner.sh 7
-bindsym $mod+KP_Down  exec --no-startup-id ~/scripts/i3_movecorner.sh 8
-bindsym $mod+KP_Next  exec --no-startup-id ~/scripts/i3_movecorner.sh 9
+bindsym $mod+KP_Home  exec --no-startup-id ~/scripts/i3_movecorner.sh 7
+bindsym $mod+KP_Up    exec --no-startup-id ~/scripts/i3_movecorner.sh 8
+bindsym $mod+KP_Prior exec --no-startup-id ~/scripts/i3_movecorner.sh 9
 ```
